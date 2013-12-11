@@ -2,9 +2,9 @@
 # !Github Pages Defaults
 # if the website will not be run on google pages, remove the following
 markdown: "rdiscount"
-safe:     "false"
-lsi:      "false"
-pygments: "true"
+safe:     false
+lsi:      false
+pygments: true
 # /github pages defaults
 ########################
 
@@ -53,9 +53,9 @@ twitter-card: "" # style of twitter cards. eg: "summary"
 # !Advanced Settings
 
 # !- analytics
-analytics:      false # enable analytics. boolean
-analytics-id:   "" # Google analytics tracking number. eg "UA-XXXXXX-XX"
-analytics-mode: "" # Google analytics version to use. normal | optimized
+analytics:           false # enable analytics. boolean
+analytics-id:        "" # Google analytics tracking number. eg "UA-XXXXXX-XX"
+analytics-optimized: false # Google analytics version to use. true | false
 
 # !- RSS
 rss-enabled:    false # enable rss. true | false
