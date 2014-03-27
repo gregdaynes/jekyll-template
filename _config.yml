@@ -1,7 +1,7 @@
 ########################
 # !Github Pages Defaults
 # if the website will not be run on google pages, remove the following
-markdown: "rdiscount"
+markdown: "kramdown"
 safe:     false
 lsi:      false
 pygments: true
@@ -65,7 +65,8 @@ rss-feed:       "" # location of feed. eg: "/feed.rss"
 mobile-optimized: false # is the website mobile optimized. true | false
 
 # !- Web App Options
-web-app-enabled: false # options: yes, no
+web-app-enabled: false # options: true | false
+web-app-capable: "" # yes | no
 web-app-title:   "" # tip: keep it short
 web-app-style:   "" # options: default, black, black-translucent
 web-app-color:   "" # used for Windows 8 / RT

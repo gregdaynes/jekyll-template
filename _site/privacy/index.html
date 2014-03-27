@@ -1,28 +1,99 @@
 <!DOCTYPE html>
 <!--
- by 
-URL: 
-License: 
+Example.com by @creator
+URL: http://localhost
+License: Apache License v2.0. http://www.apache.org/licenses/LICENSE-2.0
 -->
 
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="cleartype" content="on">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Privacy Policy</title>
+<title>Privacy Policy • Example.com</title>
 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    <!-- Icons -->
+
+<!--
+Apple Touch Icons
+
+3 ways to specify Touch Icons for iOS
+
+1) No link tag:
+   it is possible to skip the <link> tags to touch images completely.
+   iOS will automatically search the root of the website for the icons
+   the order of the search is:
+     apple-touch-icon-57x57-precomposed.png
+     apple-touch-icon-57x57.png
+     apple-touch-icon-precomposed.png
+     apple-touch-icon.png
+
+2) Single Icon:
+   iOS will resize 152px * 152px icon for all devices
+
+3) Multiple Icon:
+   serve iOS muliple icons - this allows for the designer to make sure
+   certain icons will looks great at all sizes.
+-->
+
+<!-- Single Apple Touch Icon -->
+<link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-152x152.png">
+
+<!-- Multiple Apple Touch Icon -->
+<!-- 1: 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<!-- 2: 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<!-- 3: 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<!-- 4: 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<!--
+<link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
+-->
+
+
+<!--iOS -->
+<meta name="apple-mobile-web-app-title" content="Example Site">
+<meta name="apple-mobile-web-app-capable" content="">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Startup images -->
+<!-- 1: iPhone 3GS, pre-2011 iPod Touch -->
+<!-- 2: iPhone 4, 4S and 2011 iPod Touch-->
+<!-- 3: iPhone 5 and 2012 iPod Touch -->
+<!-- 4: iPad landscape -->
+<!-- 5: iPad Portrait -->
+<link rel="apple-touch-startup-image" href="/assets/img/startup-320x460.png" media="screen and (max-device-width:320px)">
+<link rel="apple-touch-startup-image" href="/assets/img/startup-640x920.png" media="(max-device-width:480px) and (-webkit-min-device-pixel-ratio:2)">
+<link rel="apple-touch-startup-image" href="/assets/img/startup-640x1096.png" media="(max-device-width:548px) and (-webkit-min-device-pixel-ratio:2)">
+<link rel="apple-touch-startup-image" href="/assets/img/startup-1024x748.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape)">
+<link rel="apple-touch-startup-image" href="/assets/img/startup-768x1004.png" media="screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait)">
+
+<!-- Windows 8 / RT -->
+<meta name="msapplication-TileImage" content="/assets/img/apple-touch-icon-152x152.png">
+<meta name="msapplication-TileColor" content="#ff000">
+
+<!-- Prevents links from opening in mobile Safari -->
+<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+  
 
 
 <!-- Stylesheets -->
 <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 
 <!-- Icons -->
-<link rel="logo" type="image/svg" href="/logo.svg" />
+<link rel="logo" type="image/svg" href="http://localhost/logo.svg" />
 <link rel="shortcut icon" href="/assets/img/favicon-32x32.png">
 
 
+
+<!-- RSS Feed -->
+<link href="/feed.rss" rel="alternate" type="application/rss+xml" title="Example.com RSS Feed" />
 
 
 
@@ -44,15 +115,15 @@ License:
     <header role="banner">
   <hgroup>
     <h1>
+      Example.com
       
-      
-      <small></small>
+      <small>The best example site</small>
       
     </h1>
   </hgroup>
 </header>
 
-    <p>This Privacy Policy governs the manner in which  collects, uses, maintains and discloses information collected from users (each, a "User") of the <!-- $siteUrl --> website ("Site"). This privacy policy applies to the Site and all products and services offered by .</p>
+    <p>This Privacy Policy governs the manner in which Example.com collects, uses, maintains and discloses information collected from users (each, a "User") of the <!-- $siteUrl --> website ("Site"). This privacy policy applies to the Site and all products and services offered by Example.com.</p>
 
 <h2>Personal identification information</h2>
 
@@ -68,7 +139,7 @@ License:
 
 <h2>How we use collected information</h2>
 
-<h3> may collect and use Users personal information for the following purposes:</h3>
+<h3>Example.com may collect and use Users personal information for the following purposes:</h3>
 
 
 
@@ -107,7 +178,7 @@ License:
 
 <h2>Changes to this privacy policy</h2>
 
-<p> has the discretion to update this privacy policy at any time. When we do, we will post a notification on the main page of our Site, revise the updated date at the bottom of this page. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.</p>
+<p>Example.com has the discretion to update this privacy policy at any time. When we do, we will post a notification on the main page of our Site, revise the updated date at the bottom of this page. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.</p>
 
 <h2>Your acceptance of these terms</h2>
 
@@ -117,14 +188,15 @@ License:
 
 <p>If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at:</p>
 
-<p><br />
-<br /></p>
+<p>Example.com<br />
+http://localhost<br />
+creator@example.com</p>
 
-<p>This document was last updated on 2013-12-08</p>
+<p>This document was last updated on 2013-12-12</p>
 
 
     <footer role="contentinfo">
-  <p>&copy; 2013 </p>
+  <p>&copy; 2013 Example.com Inc.</p>
 
   <nav>
     <ul>
@@ -136,6 +208,15 @@ License:
 
     
     
+  
+    
+      <script>
+      // 2) Optimized and obfuscated script provided by Mathias [http://mathiasbynens.be/notes/async-analytics-snippet#universal-analytics] weighing 332bytes and executing slightly faster
+      (function(G,o,O,g,l){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){(G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;g=o.createElement('script'),l=o.scripts[0];g.src='//www.google-analytics.com/analytics.js';l.parentNode.insertBefore(g,l)}(this,document,'ga'));ga('create','UA-XXXXXX-XX');ga('send','pageview')
+      </script>
+    
+  
+
 
 
   </div>
